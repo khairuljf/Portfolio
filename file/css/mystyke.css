@@ -1,0 +1,222 @@
+ body.custom-background { background-image: url('wp-content/uploads/2015/06/bg.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+
+::-webkit-scrollbar {
+	width:15px;
+}
+::-webkit-scrollbar-thumb {
+	background:#000000;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background:#000000;
+}
+body {
+    font-family: PTSans;    
+	color:#363636;
+}
+#home h1,.searchfor {
+	font-family: arvobold;}    
+h1,h2,h3,h4,h5,h6,ul#navigation li span {
+	font-family: arvoregular;}
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size: 60px;
+}
+h3 {
+	font-size: 45px;
+}
+h4, summary {
+	font-size: 38px;
+}
+h5 {
+	font-size: 30px;
+}
+h6 {
+	font-size: 24px;
+}
+p {
+	font-size: 20px;
+}
+#page,p,.skills li,.ff-container label,.ff-items a,input[type="text"],input[type="password"],input[type="email"],textarea,input[type="submit"],#credits,button
+{
+    font-family: PTSans;} 
+b,strong {
+    font-family: PTSansBold;    font-weight:bold;    
+}
+i,em,blockquote,blockquote p,blockquote cite,.footnote {
+   font-family: PTSansItalic;   font-style:italic;        
+}        
+#home, #resume, #resume:before, #resume:after, #skills:before, #skills:after, #skills, #portfolio, #portfolio:before, #portfolio:after, .map-effect, .map-effect2, .box{
+	background-color: #ffffff;
+}
+::-moz-selection {
+background: #2E9AFE;
+color: #ffffff;
+}
+::selection {
+background: #2E9AFE;
+color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#000000;
+}
+#resume .first, #credits, #credits p, #credits .footnote, #cboxTitle
+{
+	color:#000000 !important;
+}
+p, #home h2 {
+	color:#363636 !important;
+}
+#page img
+{
+	background-color: #ffffff;
+}
+blockquote, blockquote p, .panel ul li:before, blockquote cite a 
+{
+	color: #ffffff !important;
+}
+blockquote
+{
+	border-left: 5px solid #2E9AFE;
+	background-color: #363636;
+}
+a, .active-header, .inactive-header:hover {
+	color: #2E9AFE;
+}
+a:hover {
+	color: #2E9AFE;
+}
+.overview-button, .trigger, .home-button, .panel {
+	background-color: #000000;
+	border-right-color: #2E9AFE;
+}
+.date-button, .search-button, .panel2 {
+	background-color: #000000;
+	border-left-color: #2E9AFE;
+	color: #ffffff;
+}
+.overview-button:hover, .trigger:hover, .home-button:hover {
+	background-color: #2E9AFE;
+	border-right-color: #000000;
+}
+.search-button:hover {
+	background-color: #2E9AFE;
+	border-left-color: #000000;
+}
+.panel a
+{
+	color: #ffffff;
+}
+.panel a:hover
+{
+	color: #2E9AFE;
+}
+.panel2
+{
+	border-top-color: #2E9AFE;
+}
+ul#navigation li a {
+	background-color: #2E9AFE;
+	border-left-color: #000000;
+}
+ul#navigation li a:hover {
+	background-color: #000000;
+	border-left-color: #2E9AFE;
+}
+ul#navigation li span {
+	color:#ffffff;
+	font-size: 28px;
+}
+#home h1 {
+	font-size: 60px;
+}
+#home h2 {
+	font-size: 30px;
+}
+.theme-default .nivo-directionNav a {
+	background:url('wp-content/themes/ifranxion/images/nivo-arrows.png') no-repeat;
+}
+.theme-default a.nivo-nextNav {
+	background-position:-40px 0;
+	right:0px;
+}
+.theme-default a.nivo-prevNav {
+	left:0px;
+}
+.label
+{
+    background-color: #363636;
+	color: #ffffff;
+	border-left-color: #2E9AFE;
+}
+.sticky, .comment-body
+{
+    border-bottom-color: #2E9AFE;
+}
+.ff-container label 
+{
+	background: #000000;
+	color: #ffffff;
+}
+.ff-container label:hover, .ff-container input.ff-selector-type-all:checked ~ label.ff-label-type-all, .ff-container input.ff-selector-type-1:checked ~ label.ff-label-type-1, .ff-container input.ff-selector-type-2:checked ~ label.ff-label-type-2, .ff-container input.ff-selector-type-3:checked ~ label.ff-label-type-3 {
+ background: #2E9AFE;
+}
+.ff-items a {
+	background: #2E9AFE;
+}
+.ff-items a span {
+	background: #2E9AFE;
+	color: #ffffff;
+}
+iframe
+{
+    border-color: #ffffff;
+}
+.statusMessage {
+	border: 10px solid #ffffff;
+	background-color: #2E9AFE;
+}
+.statusMessage p {
+	color:#ffffff !important;
+}
+input[type="submit"], hr
+{
+    color: #ffffff !important;
+    background: #2E9AFE;
+}
+input[type="submit"]:hover, #cboxContent, #cboxLoadedContent, #cboxLoadingOverlay {
+	background-color:#000000}
+.accordion-header, .accordion-content
+{
+	border-bottom:1px dashed #363636;
+}
+#cboxOverlay, .cboxIframe {
+  background-color: #ffffff;
+}
+#resume .first
+{
+    color: #000000;
+}
+.skills li
+{
+    color: #ffffff;
+}
+.skills .jq {
+	background:#FE642E;
+}
+.skills .css {
+	background:#2E9AFE;
+}
+.skills .html {
+	background:#DBA901;
+}
+.skills .php {
+	background:#B72228;
+}
+.skills .c {
+	background:#1caebf;
+}
+.skills .sql {
+	background:#0040FF;
+}
